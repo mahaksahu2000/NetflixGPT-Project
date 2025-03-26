@@ -1,0 +1,45 @@
+[debug] [2024-12-03T19:09:18.026Z] ----------------------------------------------------------------------
+[debug] [2024-12-03T19:09:18.029Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\guru\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only hosting
+[debug] [2024-12-03T19:09:18.030Z] CLI Version:   13.27.0
+[debug] [2024-12-03T19:09:18.030Z] Platform:      win32
+[debug] [2024-12-03T19:09:18.030Z] Node Version:  v22.11.0
+[debug] [2024-12-03T19:09:18.030Z] Time:          Wed Dec 04 2024 00:39:18 GMT+0530 (India Standard Time)
+[debug] [2024-12-03T19:09:18.030Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-03T19:09:18.183Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-03T19:09:18.184Z] > authorizing via signed-in user (mahaksahu099@gmail.com)
+[debug] [2024-12-03T19:09:18.184Z] [iam] checking project mynetflixgpt-d4c5a for permissions ["firebase.projects.get"]
+[debug] [2024-12-03T19:09:18.185Z] Checked if tokens are valid: false, expires at: 1733253775573
+[debug] [2024-12-03T19:09:18.185Z] Checked if tokens are valid: false, expires at: 1733253775573
+[debug] [2024-12-03T19:09:18.186Z] > refreshing access token with scopes: []
+[debug] [2024-12-03T19:09:18.188Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-12-03T19:09:18.188Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-12-03T19:09:18.598Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-12-03T19:09:18.598Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-12-03T19:09:18.621Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/mynetflixgpt-d4c5a:testIamPermissions [none]
+[debug] [2024-12-03T19:09:18.621Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/mynetflixgpt-d4c5a:testIamPermissions x-goog-quota-user=projects/mynetflixgpt-d4c5a
+[debug] [2024-12-03T19:09:18.621Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/mynetflixgpt-d4c5a:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-12-03T19:09:20.496Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/mynetflixgpt-d4c5a:testIamPermissions 200
+[debug] [2024-12-03T19:09:20.497Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/mynetflixgpt-d4c5a:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-12-03T19:09:20.499Z] Checked if tokens are valid: true, expires at: 1733256557598
+[debug] [2024-12-03T19:09:20.500Z] Checked if tokens are valid: true, expires at: 1733256557598
+[debug] [2024-12-03T19:09:20.500Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/mynetflixgpt-d4c5a [none]
+[debug] [2024-12-03T19:09:20.913Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/mynetflixgpt-d4c5a 200
+[debug] [2024-12-03T19:09:20.914Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/mynetflixgpt-d4c5a {"projectNumber":"808963224093","projectId":"mynetflixgpt-d4c5a","lifecycleState":"ACTIVE","name":"mynetflixGPT","labels":{"firebase":"enabled"},"createTime":"2024-11-21T17:38:11.303109Z"}
+[debug] [2024-12-03T19:09:20.921Z] Checked if tokens are valid: true, expires at: 1733256557598
+[debug] [2024-12-03T19:09:20.921Z] Checked if tokens are valid: true, expires at: 1733256557598
+[debug] [2024-12-03T19:09:20.922Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/mynetflixgpt-d4c5a/sites 
+[debug] [2024-12-03T19:09:22.373Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/mynetflixgpt-d4c5a/sites 200
+[debug] [2024-12-03T19:09:22.373Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/mynetflixgpt-d4c5a/sites {"sites":[{"name":"projects/mynetflixgpt-d4c5a/sites/mynetflixgpt-d4c5a","defaultUrl":"https://mynetflixgpt-d4c5a.web.app","appId":"1:808963224093:web:ab5f5ed46667e266528cf4","type":"DEFAULT_SITE"}]}
+[debug] [2024-12-03T19:09:22.374Z] Checked if tokens are valid: true, expires at: 1733256557598
+[debug] [2024-12-03T19:09:22.374Z] Checked if tokens are valid: true, expires at: 1733256557598
+[debug] [2024-12-03T19:09:22.375Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mynetflixgpt-d4c5a/webApps/1:808963224093:web:ab5f5ed46667e266528cf4/config [none]
+[debug] [2024-12-03T19:09:23.439Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mynetflixgpt-d4c5a/webApps/1:808963224093:web:ab5f5ed46667e266528cf4/config 200
+[debug] [2024-12-03T19:09:23.440Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mynetflixgpt-d4c5a/webApps/1:808963224093:web:ab5f5ed46667e266528cf4/config {"projectId":"mynetflixgpt-d4c5a","appId":"1:808963224093:web:ab5f5ed46667e266528cf4","storageBucket":"mynetflixgpt-d4c5a.firebasestorage.app","apiKey":"AIzaSyAQK4aJNuDaP7Gvq4GRlUJ3ksJwotphSgY","authDomain":"mynetflixgpt-d4c5a.firebaseapp.com","messagingSenderId":"808963224093","measurementId":"G-19F3WYPFKE"}
+[debug] [2024-12-03T19:09:23.455Z] Checked if tokens are valid: true, expires at: 1733256557598
+[debug] [2024-12-03T19:09:23.456Z] Checked if tokens are valid: true, expires at: 1733256557598
+[debug] [2024-12-03T19:09:23.457Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mynetflixgpt-d4c5a [none]
+[debug] [2024-12-03T19:09:24.102Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mynetflixgpt-d4c5a 200
+[debug] [2024-12-03T19:09:24.102Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mynetflixgpt-d4c5a {"projectId":"mynetflixgpt-d4c5a","projectNumber":"808963224093","displayName":"mynetflixGPT","name":"projects/mynetflixgpt-d4c5a","resources":{"hostingSite":"mynetflixgpt-d4c5a"},"state":"ACTIVE","etag":"1_3c2c7022-9e0c-4bea-96e7-5fff6ebcd74b"}
+[info] i  hosting[mynetflixgpt-d4c5a]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[mynetflixgpt-d4c5a]: Local server: http://localhost:5002 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5002\u001b[22m\u001b[24m"}}

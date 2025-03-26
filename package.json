@@ -1,0 +1,48 @@
+{
+  "name": "netflixgpt",
+  "version": "1.0.0",
+  "description": "This project by mahak sahu",
+  "main": "index.js",
+  "scripts": {
+    "build": "react-scripts build",
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "NetflixGPT",
+    "mahak",
+    "sahu"
+  ],
+  "author": "mahak sahu",
+  "license": "ISC",
+  "devDependencies": {
+    "@reduxjs/toolkit": "^2.4.0",
+    "buffer": "^6.0.3",
+    "parcel": "^2.12.0",
+    "process": "^0.11.10",
+    "react-router-dom": "^6.28.0",
+    "tailwindcss": "^3.4.14"
+  },
+  "dependencies": {
+    "@firebasegen/default-connector": "file:dataconnect-generated/js/default-connector",
+    "firebase": "^11.0.2",
+    "openai": "^4.87.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.5.0",
+    "react-redux": "^9.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
